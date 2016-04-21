@@ -23,7 +23,6 @@ public class MainPresenter {
     public MainPresenter(Retrofit retrofit, MainScreenContract.View view) {
         this.retrofit = retrofit;
         this.mView = view;
-
     }
 
     public void loadPostsFromApi() {
@@ -39,7 +38,6 @@ public class MainPresenter {
                     @Override
                     public void onError(Throwable e) {
                         mView.showError(e.getMessage());
-
                     }
 
                     @Override
