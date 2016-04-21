@@ -1,4 +1,4 @@
-package com.adityaladwa.dagger.di;
+package com.adityaladwa.dagger;
 
 /**
  * Created by Aditya on 21-Apr-16.
