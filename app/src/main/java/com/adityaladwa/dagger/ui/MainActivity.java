@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.adityaladwa.dagger.App;
 import com.adityaladwa.dagger.MainPresenter;
 import com.adityaladwa.dagger.MainScreenContract;
 import com.adityaladwa.dagger.Post;
